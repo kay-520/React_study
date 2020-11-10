@@ -33,11 +33,11 @@ import Example9 from "./Example9";
 //6.useReducer代替Redux案例
 // ReactDOM.render(<Example6/>, document.getElementById("root"));
 
-//7.useMemo 解决使用React hooks产生的无用渲染的性能问题
+//7.useMemo 解决使用React hooks产生的无用渲染的性能问题 目的是缓存变量
 // ReactDOM.render(<Example7/>, document.getElementById("root"));
 
 //8.useRef 获取Dom元素和保存变量
 // ReactDOM.render(<Example8/>, document.getElementById("root"));
 
-//9.自定义Hooks函数获取窗口大小
+//9.useCallback 是为了缓存方法 自定义Hooks函数获取窗口大小
 ReactDOM.render(<Example9/>, document.getElementById("root"));
