@@ -4,7 +4,8 @@
     [
       "import",
       {
-        "libraryName":"antd"
+        "libraryName":"antd",
+//        "style":"css"
       }
     ]
   ]
